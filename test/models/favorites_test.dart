@@ -12,6 +12,7 @@ void main() {
       expect(favorites.items.contains(number), true);
     });
 
+
     //remove
     test('An item should be removed', () {
       var number = 45;
